@@ -20,7 +20,7 @@ const services=[
   {
     num:'03',
     title:"IA/DataScience/ML",
-    description:"Nous vous offrons egalement des formations en IA et DataScience. Nous vous accompagnons dans la creation des solutions IA pour votre boîte",
+    description:"Nous vous offrons également des formations en IA et DataScience. Nous vous accompagnons dans la creation des solutions IA pour votre boîte",
     href:"/#",
   },
   {
