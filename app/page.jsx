@@ -1,12 +1,13 @@
 import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
+import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi";
 
 
 const Home = () => {
   return (
-    <section className="h-full">
+    <section className="h-full mb-[250px] ">
         <div className=" container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* texte */}
@@ -15,7 +16,7 @@ const Home = () => {
               <h1 className="h1">
                 Salut 👋! Je suis <br /> <span className="text-accent">TRAORE Souleymane</span>
               </h1>
-              <p className="max-w-[500px] mb-9 text-white/80 ">
+              <p className="max-w-[500px] mt-9 mb-9 text-white/80 ">
                 Passionné par l'IA et ses applications,j'excelle dans le développement des solutions digitales
                  élégantes et je suis un expert dans plusieurs langages
                   de Programmation et technologies
@@ -40,8 +41,8 @@ const Home = () => {
               <Photo/>
             </div>
           </div>
-
         </div>  
+        <Stats/>
     </section>
   )
 }
